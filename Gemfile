@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+gem "paperclip", "~> 4.2"
 gem 'rspec-rails', group: :test
 gem 'capybara', group: :test
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

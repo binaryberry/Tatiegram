@@ -1,2 +1,10 @@
-<p>No posts</p>
+
+<% if @posts.any? %>
+    <% @posts.each do |post| %>
+        <h2> <%= post.caption %> </h2>
+    <% end %>
+<% else %>
+	<p>No posts</p>
+<% end %>
+
 <a href ='#'>Add a post</a>
